@@ -1,0 +1,112 @@
+.main-section-plans {
+  background-color: var(--header-bg-color);
+}
+
+.main-section-plans > .content-wrapper {
+  margin-top: 80px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--main-white-text-color);
+}
+.main-section-plans > .content-wrapper:first-child {
+  justify-content: flex-start;
+}
+
+.main-section-plans-title {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-section-plans-cards {
+  display: flex;
+  justify-content: center;
+}
+.main-section-plans-cards-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 280px;
+  height: 650px;
+  border: 1px solid gray;
+  margin-right: 30px;
+}
+.main-section-plans-cards-card:nth-child(2) {
+  background-color: var(--main-bg-color);
+}
+
+.plans-content-top {
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  border-bottom: 1px solid grey;
+}
+
+.plans-top2-bg {
+  background-color: #4b474e;
+}
+
+.plans-abzac1 {
+  margin-top: 30px;
+  font-size: 1.7rem;
+}
+
+.plans-abzac2 {
+  font-size: 1.2rem;
+  margin-right: 130px;
+  margin-top: 15px;
+}
+
+.plans-abzac3 {
+  font-size: 8rem;
+}
+
+.plans-abzac33 {
+  font-size: 1rem;
+}
+
+.plans-abzac14 {
+  margin-top: 30px;
+}
+
+.plans-abzac4 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.plans-abzac5 {
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
+
+.plans-abzac6 {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.plans-btn,
+.plans-btn3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 10%;
+  background-color: var(--button-dark-bg-hover);
+  margin-left: 27px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: var(--main-white1-text-color);
+}
+.plans-btn:hover,
+.plans-btn3:hover {
+  background-color: var(--button-section8-bg-hover);
+}
+
+.plans-btn3 {
+  margin-top: 65px;
+}
+
+/*# sourceMappingURL=plans.css.map */

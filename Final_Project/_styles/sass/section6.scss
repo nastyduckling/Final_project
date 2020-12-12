@@ -1,0 +1,53 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  &-item {
+    position: relative;
+
+    &-img {
+      display: block;
+      width: 426px;
+
+      &-text {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        background: rgba(255, 255, 255, 0.6);
+        display: none;
+        text-align: center;
+      }
+    }
+
+    &:hover .grid-container-item-img-text {
+      display: block;
+    }
+  }
+}
+
+.img-title {
+  margin-top: 80px;
+  &-color {
+    color: black;
+  }
+}
+
+.img-text {
+  font-size: 1.2rem;
+  color: rgb(63, 63, 63);
+  &-like {
+    display: flex;
+  }
+}
+
+.img-text-like {
+  display: flex;
+  justify-content: space-between;
+  &-heart-img {
+    height: 22px;
+    width: auto;
+    margin: 30px;
+  }
+}

@@ -1,0 +1,48 @@
+.slideshow {
+  width: 600px;
+  height: 210px;
+  margin: 0 auto;
+  position: relative;
+  &-viewport {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid green;
+    position: relative;
+  }
+
+  &-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 210px;
+    height: auto;
+    opacity: 0;
+    visibility: hidden;
+    &-active {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &-pic {
+    width: 100%;
+  }
+
+  &-control {
+    position: absolute;
+    top: 50%;
+
+    &-prev {
+      left: 0;
+      transform: translateX(-100%);
+    }
+
+    &-next {
+      right: 0;
+      transform: translateX(100%);
+    }
+  }
+}

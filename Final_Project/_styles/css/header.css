@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  background-color: var(--header-bg-color);
+  height: 80px;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+}
+
+.header > .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-logIn {
+  margin-left: 65px;
+}
+
+.menu-nav-items {
+  display: flex;
+}
+.menu-nav-items-item {
+  margin: 15px;
+  display: flex;
+}
+.menu-nav-items-link {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  text-decoration: none;
+  color: var(--header-text-color);
+}
+.menu-nav-items-link:hover {
+  color: var(--header-text-color-hover);
+}
+
+/*# sourceMappingURL=header.css.map */

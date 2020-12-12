@@ -1,0 +1,44 @@
+.main-section4 {
+  background-image: url("../../_img/background4.webp");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: var(--main-dark-text-color);
+}
+
+.main-section4-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.main-section4-content-winnings {
+  font-size: 5rem;
+  margin: auto;
+}
+.main-section4-content-winnings1 {
+  font-size: 5rem;
+}
+.main-section4-content-columns {
+  display: flex;
+  justify-content: space-between;
+}
+.main-section4-content-columns-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.7rem;
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 65px;
+  width: 220px;
+}
+
+.section4-hr {
+  width: 150px;
+}
+
+/*# sourceMappingURL=section4.css.map */

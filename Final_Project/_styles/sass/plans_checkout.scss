@@ -1,0 +1,138 @@
+.main-section-checkout {
+  background-color: var(--header-bg-color);
+}
+
+.main-section-checkout > .content-wrapper {
+  margin-top: 80px;
+  height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-section-checkout-base {
+  margin-top: 100px;
+}
+
+.main-section-checkout-title {
+  font-size: 6rem;
+  text-align: center;
+  color: var(--main-white-text-color);
+}
+
+.main-section-checkout-card {
+  width: 975px;
+  height: 500px;
+  color: rgb(75, 75, 75);
+  background-color: rgb(254, 255, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-card-title {
+  width: 885px;
+  height: 425px;
+  &-div {
+    color: grey;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 40px;
+    &-text {
+      font-size: 2rem;
+    }
+  }
+}
+
+.checkout-card-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+  &-sign {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 460px;
+
+    &-up {
+      font-size: 1.8rem;
+    }
+
+    &-btns {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 25px;
+      border-bottom: 2px solid rgb(221, 221, 221);
+
+      &-btn {
+        width: 220px;
+        height: 45px;
+        font-size: 1.2rem;
+        text-decoration: none;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(70, 68, 68);
+
+        &:hover {
+          color: grey;
+        }
+
+        &:first-child {
+          background-color: black;
+          color: white;
+          border: none;
+          display: flex;
+
+          &:hover {
+            background-color: rgb(58, 58, 58);
+          }
+        }
+      }
+    }
+
+    &-payment {
+      font-size: 1.8rem;
+      color: grey;
+    }
+  }
+}
+
+.checkout-order {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 375px;
+  height: 250px;
+  background-color: rgb(240, 240, 240);
+  padding: 30px 30px;
+  font-size: 1.2rem;
+  &-title {
+    font-size: 1.8rem;
+  }
+
+  &-abzac-div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-border {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-bottom: 30px;
+  }
+
+  &-abzac-br {
+    width: 200px;
+  }
+
+  &-abzac-price {
+    display: flex;
+    align-items: center;
+  }
+  &-abzac1-price {
+    color: black;
+    font-size: 1.8rem;
+  }
+}

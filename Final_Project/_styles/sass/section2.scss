@@ -1,0 +1,101 @@
+.section2-img {
+  height: 600px;
+  display: flex;
+
+  &:hover .section2-img-title-left {
+    display: block;
+  }
+
+  &:hover .section2-img-title-right {
+    display: block;
+  }
+}
+
+.section2-container {
+  &-item {
+    position: relative;
+
+    &-img {
+      display: flex;
+
+      &-text {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+.section2-img-title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  &-left-href {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  &-right-href {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -150px;
+  }
+
+  &-left {
+    position: absolute;
+    left: -135px;
+    display: none;
+  }
+
+  &-right {
+    position: absolute;
+    left: 265px;
+    display: none;
+  }
+
+  &-color {
+    color: white;
+    font-size: 2rem;
+  }
+
+  &-href {
+    margin-bottom: 25px;
+
+    &-href {
+      text-decoration: none;
+    }
+  }
+
+  &-arrow {
+    height: 50px;
+    width: 55px;
+
+    &-hover {
+      position: absolute;
+      height: 50px;
+      width: 55px;
+      top: -36px;
+      left: 0;
+      display: none;
+    }
+  }
+}
+
+.section2-img-title-href1 {
+  position: relative;
+  &:hover .section2-img-title-arrow-hover {
+    display: block;
+  }
+}

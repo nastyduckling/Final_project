@@ -1,0 +1,128 @@
+.main-section-checkout {
+  background-color: var(--header-bg-color);
+}
+
+.main-section-checkout > .content-wrapper {
+  margin-top: 80px;
+  height: 1000px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-section-checkout-base {
+  margin-top: 100px;
+}
+
+.main-section-checkout-title {
+  font-size: 6rem;
+  text-align: center;
+  color: var(--main-white-text-color);
+}
+
+.main-section-checkout-card {
+  width: 975px;
+  height: 500px;
+  color: #4b4b4b;
+  background-color: #fefff8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-card-title {
+  width: 885px;
+  height: 425px;
+}
+.checkout-card-title-div {
+  color: grey;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 40px;
+}
+.checkout-card-title-div-text {
+  font-size: 2rem;
+}
+
+.checkout-card-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.checkout-card-content-sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 460px;
+}
+.checkout-card-content-sign-up {
+  font-size: 1.8rem;
+}
+.checkout-card-content-sign-btns {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #dddddd;
+}
+.checkout-card-content-sign-btns-btn {
+  width: 220px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464444;
+}
+.checkout-card-content-sign-btns-btn:hover {
+  color: grey;
+}
+.checkout-card-content-sign-btns-btn:first-child {
+  background-color: black;
+  color: white;
+  border: none;
+  display: flex;
+}
+.checkout-card-content-sign-btns-btn:first-child:hover {
+  background-color: #3a3a3a;
+}
+.checkout-card-content-sign-payment {
+  font-size: 1.8rem;
+  color: grey;
+}
+
+.checkout-order {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 375px;
+  height: 250px;
+  background-color: #f0f0f0;
+  padding: 30px 30px;
+  font-size: 1.2rem;
+}
+.checkout-order-title {
+  font-size: 1.8rem;
+}
+.checkout-order-abzac-div {
+  display: flex;
+  justify-content: space-between;
+}
+.checkout-order-border {
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 30px;
+}
+.checkout-order-abzac-br {
+  width: 200px;
+}
+.checkout-order-abzac-price {
+  display: flex;
+  align-items: center;
+}
+.checkout-order-abzac1-price {
+  color: black;
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=plans_checkout.css.map */

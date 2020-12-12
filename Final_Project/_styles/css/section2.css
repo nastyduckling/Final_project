@@ -1,0 +1,88 @@
+.section2-img {
+  height: 600px;
+  display: flex;
+}
+.section2-img:hover .section2-img-title-left {
+  display: block;
+}
+.section2-img:hover .section2-img-title-right {
+  display: block;
+}
+
+.section2-container-item {
+  position: relative;
+}
+.section2-container-item-img {
+  display: flex;
+}
+.section2-container-item-img-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2-img-title {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.section2-img-title-left-href {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 150px;
+}
+.section2-img-title-right-href {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -150px;
+}
+.section2-img-title-left {
+  position: absolute;
+  left: -135px;
+  display: none;
+}
+.section2-img-title-right {
+  position: absolute;
+  left: 265px;
+  display: none;
+}
+.section2-img-title-color {
+  color: white;
+  font-size: 2rem;
+}
+.section2-img-title-href {
+  margin-bottom: 25px;
+}
+.section2-img-title-href-href {
+  text-decoration: none;
+}
+.section2-img-title-arrow {
+  height: 50px;
+  width: 55px;
+}
+.section2-img-title-arrow-hover {
+  position: absolute;
+  height: 50px;
+  width: 55px;
+  top: -36px;
+  left: 0;
+  display: none;
+}
+
+.section2-img-title-href1 {
+  position: relative;
+}
+.section2-img-title-href1:hover .section2-img-title-arrow-hover {
+  display: block;
+}
+
+/*# sourceMappingURL=section2.css.map */

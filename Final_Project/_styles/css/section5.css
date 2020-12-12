@@ -1,0 +1,33 @@
+.main-section5 {
+  background-color: var(--main-bg-color);
+  height: 350px;
+}
+.main-section5-content {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: center;
+  margin-top: 100px;
+}
+.main-section5-content-training {
+  font-size: 2rem;
+  color: var(--main-white-text-color);
+}
+.main-section5-content-batton {
+  margin: 70px;
+  width: 200px;
+  height: 55px;
+  background-color: var(--button-dark-bg1);
+  font-size: 1rem;
+  color: var(--button-dark-text-color);
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+}
+.main-section5-content-batton:hover {
+  background-color: var(--button-orange-bg-hover);
+  color: var(--button-orange-text-color);
+}
+
+/*# sourceMappingURL=section5.css.map */

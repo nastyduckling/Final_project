@@ -1,0 +1,50 @@
+.main-section4 {
+  background-image: url("../../_img/background4.webp");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  color: var(--main-dark-text-color);
+}
+
+.main-section4-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  //border: 1px solid white;
+  &-winnings {
+    font-size: 5rem;
+    margin: auto;
+  }
+
+  &-winnings1 {
+    font-size: 5rem;
+    //border: 1px solid white;
+  }
+
+  &-columns {
+    display: flex;
+    justify-content: space-between;
+    //border: 1px solid white;
+
+    &-column {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      //margin: 20px;
+      font-size: 1.7rem;
+      width: 110px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 65px;
+      width: 220px;
+      //border: 1px solid yellow;
+    }
+  }
+}
+
+.section4-hr {
+  width: 150px;
+}

@@ -1,0 +1,119 @@
+.main-section9 {
+  background-color: var(--main-bg-orange-color);
+  height: 525px;
+  display: flex;
+  width: 100%;
+}
+
+.contacts-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: var(--main-dark-text-color);
+}
+
+.contacts-left {
+  height: 365px;
+  width: 430px;
+  margin-top: 55px;
+  font-size: 1.5rem;
+  justify-content: left;
+}
+.contacts-left-content-me {
+  font-size: 2rem;
+  margin-bottom: 45px;
+}
+.contacts-left-content-p1 {
+  margin-bottom: 15px;
+}
+.contacts-left-content-p2 {
+  margin-bottom: 110px;
+}
+.contacts-left-content-p2-mysite {
+  text-decoration: none;
+  color: var(--main-dark-text-color);
+}
+
+.img-network {
+  margin-left: 5px;
+}
+.img-network-img {
+  height: 35px;
+}
+
+.contacts-right {
+  margin-top: 55px;
+  margin-left: 80px;
+  height: 365px;
+  width: 430px;
+}
+.contacts-right-input {
+  width: 430px;
+  text-align: center;
+  color: var(--main-dark-text-color);
+}
+.contacts-right-input-input {
+  width: 425px;
+  height: 35px;
+  margin-bottom: 5px;
+  border: var(--main-dark-text-color) 2px solid;
+  background-color: var(--main-bg-orange-color);
+  color: var(--main-dark-text-color);
+  font-size: 1.2rem;
+  padding-left: 10px;
+  outline: none;
+}
+.contacts-right-input-input:hover {
+  border: 1px solid;
+}
+.contacts-right-input-input::placeholder {
+  color: var(--main-dark-text-color);
+  font-size: 1rem;
+}
+.contacts-right-input-area {
+  width: 425px;
+  height: 110px;
+  margin-bottom: 2px;
+  border: var(--main-dark-text-color) 2px solid;
+  background-color: var(--main-bg-orange-color);
+  padding-left: 10px;
+  font-size: 1.2rem;
+  outline: none;
+  resize: none;
+}
+.contacts-right-input-area::placeholder {
+  color: var(--main-dark-text-color);
+  font-size: 1rem;
+}
+.contacts-right-input-area:hover {
+  border: 1px solid;
+}
+.contacts-right-up {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: baseline;
+}
+.contacts-right-up-hrefUp {
+  margin-right: 40px;
+}
+.contacts-right-up-text-wix {
+  text-decoration: none;
+  color: var(--main-dark-text-color);
+}
+
+.btn-submit {
+  color: var(--button-dark-bg-hover);
+  background-color: var(--button-dark-bg);
+  height: 40px;
+  width: 150px;
+  font-size: 1.2rem;
+  outline: none;
+  margin-left: 275px;
+  margin-bottom: 80px;
+}
+.btn-submit:hover {
+  color: var(--button-orange-text-color);
+  background-color: var(--button-dark-bg-fotter-hover);
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,114 @@
+.main-section-book {
+  //display: none;
+  background-color: var(--header-bg-color);
+}
+
+.main-section-book > .content-wrapper {
+  margin-top: 80px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--main-white-text-color);
+}
+
+.main-section-book-title {
+  font-size: 6rem;
+  text-align: center;
+}
+
+.main-section-book-cards {
+  display: flex;
+  justify-content: center;
+
+  &-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 280px;
+    //height: 350px;
+    border: 1px solid gray;
+    margin-right: 30px;
+  }
+}
+
+.book-img-top1 {
+  height: 200px;
+
+  &-href {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  &-img {
+    height: 200px;
+    width: auto;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}
+
+.book-content-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+}
+
+.book-abzac1 {
+  font-size: 1.2rem;
+  //margin-top: 10px;
+}
+
+.book-abzac2 {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.book-btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 140px;
+  height: 37px;
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--button-orange-text-color);
+  background-color: var(--button-dark-bg-hover);
+
+  &:hover {
+    color: var(--button-orange-text-color);
+    background-color: var(--button-section8-bg-hover);
+  }
+}
+
+.main-section-book-message > .content-wrapper {
+  height: 900px;
+  background-color: rgb(0, 0, 0);
+  //opacity: 0.5;
+}
+
+.book-online-message {
+  position: absolute;
+  height: 500px;
+  width: 800px;
+  background-color: white;
+  z-index: 2;
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    border: 2xpx solid red;
+  }
+}
+
+.book-online-close {
+  display: flex;
+  flex-direction: flex-en;
+}

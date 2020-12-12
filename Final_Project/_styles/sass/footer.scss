@@ -1,0 +1,119 @@
+.main-section9 {
+  background-color: var(--main-bg-orange-color);
+  height: 525px;
+  display: flex;
+  width: 100%;
+}
+
+.contacts-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: var(--main-dark-text-color);
+}
+
+.contacts-left {
+  height: 365px;
+  width: 430px;
+  margin-top: 55px;
+  font-size: 1.5rem;
+  justify-content: left;
+  &-content-me {
+    font-size: 2rem;
+    margin-bottom: 45px;
+  }
+  &-content-p1 {
+    margin-bottom: 15px;
+  }
+  &-content-p2 {
+    margin-bottom: 110px;
+    &-mysite {
+      text-decoration: none;
+      color: var(--main-dark-text-color);
+    }
+  }
+}
+
+.img-network {
+  margin-left: 5px;
+  &-img {
+    height: 35px;
+  }
+}
+
+.contacts-right {
+  margin-top: 55px;
+  margin-left: 80px;
+  height: 365px;
+  width: 430px;
+
+  &-input {
+    width: 430px;
+    text-align: center;
+    color: var(--main-dark-text-color);
+    &-input {
+      width: 425px;
+      height: 35px;
+      margin-bottom: 5px;
+      border: var(--main-dark-text-color) 2px solid;
+      background-color: var(--main-bg-orange-color);
+      color: var(--main-dark-text-color);
+      font-size: 1.2rem;
+      padding-left: 10px;
+      outline: none;
+    }
+    &-input:hover {
+      border: 1px solid;
+    }
+    &-input::placeholder {
+      color: var(--main-dark-text-color);
+      font-size: 1rem;
+    }
+    &-area {
+      width: 425px;
+      height: 110px;
+      margin-bottom: 2px;
+      border: var(--main-dark-text-color) 2px solid;
+      background-color: var(--main-bg-orange-color);
+      padding-left: 10px;
+      font-size: 1.2rem;
+      outline: none;
+      resize: none;
+    }
+    &-area::placeholder {
+      color: var(--main-dark-text-color);
+      font-size: 1rem;
+    }
+    &-area:hover {
+      border: 1px solid;
+    }
+  }
+
+  &-up {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: baseline;
+    &-hrefUp {
+      margin-right: 40px;
+    }
+    &-text-wix {
+      text-decoration: none;
+      color: var(--main-dark-text-color);
+    }
+  }
+}
+
+.btn-submit {
+  color: var(--button-dark-bg-hover);
+  background-color: var(--button-dark-bg);
+  height: 40px;
+  width: 150px;
+  font-size: 1.2rem;
+  outline: none;
+  margin-left: 275px;
+  margin-bottom: 80px;
+  &:hover {
+    color: var(--button-orange-text-color);
+    background-color: var(--button-dark-bg-fotter-hover);
+  }
+}
