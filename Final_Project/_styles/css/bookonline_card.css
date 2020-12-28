@@ -42,9 +42,6 @@
 .book-card-content-content-abzac-usd {
   margin-bottom: 15px;
 }
-.book-card-content-content-abzac-btn {
-  margin-bottom: 50px;
-}
 .book-card-content-content-img-abzac {
   margin-bottom: 65px;
 }
@@ -69,6 +66,8 @@
 }
 
 .book-btn {
+  margin-bottom: 50px;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-content: center;

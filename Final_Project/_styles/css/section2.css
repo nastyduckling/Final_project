@@ -25,6 +25,10 @@
   justify-content: center;
   align-items: center;
 }
+.section2-container-item-img-text:hover {
+  background-color: #ff9494;
+  opacity: 0.5;
+}
 
 .section2-img-title {
   margin-top: 50px;

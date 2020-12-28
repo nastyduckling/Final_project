@@ -15,13 +15,13 @@
                 <!--<button class="nav-toggle" id="toggle">=</button>-->
                 <ul class="menu-nav-items">
                     <li class="menu-nav-items-item"><a href="./home.html" class="menu-nav-items-link"><span>HOME</span></a></li>
-                    <li class="menu-nav-items-item"><a href="#TRAINING" class="menu-nav-items-link"> <span> TRAINING</span></a></li>
-                    <li class="menu-nav-items-item"><a href="#ABOUT" class="menu-nav-items-link"><span>ABOUT</span></a></li>
-                    <li class="menu-nav-items-item"><a href="#WINNINGS" class="menu-nav-items-link"><span>WINNINGS</span></a></li>
-                    <li class="menu-nav-items-item"><a href="#theStudio" class="menu-nav-items-link"><span>THE STUDIO</span></a></li>
+                    <li class="menu-nav-items-item"><a href="./home.html" class="menu-nav-items-link"> <span> TRAINING</span></a></li>
+                    <li class="menu-nav-items-item"><a href="./home.html" class="menu-nav-items-link"><span>ABOUT</span></a></li>
+                    <li class="menu-nav-items-item"><a href="./home.html" class="menu-nav-items-link"><span>WINNINGS</span></a></li>
+                    <li class="menu-nav-items-item"><a href="./home.html" class="menu-nav-items-link"><span>THE STUDIO</span></a></li>
                     <li class="menu-nav-items-item"><a href="./book_online.html" class="menu-nav-items-link"><span>BOOK ONLINE</span></a></li>
                     <li class="menu-nav-items-item"><a href="./plans.html" class="menu-nav-items-link"><span>PLANS</span></a></li>
-                    <li class="menu-nav-items-item"><a href="#down" class="menu-nav-items-link"><span>CONTACT</span></a></li>
+                    <li class="menu-nav-items-item"><a href="./home.html" class="menu-nav-items-link"><span>CONTACT</span></a></li>
                 </ul>
             </nav>
             <div class="menu-logIn">
@@ -42,7 +42,7 @@
                         <div class="book-content-down">
                             <p class="book-abzac1">BoxFit</p>
                             <p class="book-abzac2">60 USD</p>
-                            <a href="" class="book-btn"><span class="book-btn-text">Book Now<span></a>
+                            <button class="book-btn"><span class="book-btn-text">Book Now<span></button>
                         </div>
                     </div>
                     <div class="main-section-book-cards-card">
@@ -52,7 +52,7 @@
                         <div class="book-content-down">
                             <p class="book-abzac1">Boxing for Beginners</p>
                             <p class="book-abzac2">60 USD</p>
-                            <a href="" class="book-btn"><span class="book-btn-text">Book Now<span></a>
+                            <button class="book-btn2"><span class="book-btn-text">Book Now<span></button>
                         </div>
                     </div>
                     <div class="main-section-book-cards-card">
@@ -62,30 +62,28 @@
                         <div class="book-content-down">
                             <p class="book-abzac1">Boxing for Pros</p>
                             <p class="book-abzac2">60 USD</p>
-                            <a href="" class="book-btn"><span class="book-btn-text">Book Now<span></a>
+                            <button class="book-btn3" id="book-online-message"><span class="book-btn-text">Book Now<span></button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>          
-    </section>
-    <section class="main-section-book-message page-content">
-        <div class='content-wrapper'>
-            <div class="book-online-message">
-                <div class="book-online-close">
-                    <p class="book-online-close-text">X</p>
-                </div> 
-                <div class="book-online-message-content">
-                    <div class="book-online-message-text">
-                        <p class="book-online-message-text-text">Sorry, this service is not yet available for online bookings. Please contact us for more information.</p>
-                    </div>
-                    <div class="book-online-message-btn">
-                        <p class="book-online-message-btn-text">Go It</p>
-                    </div>
-                </div>              
-            </div>
         </div>
+    
+        <div class="book-online-message">
+            <div class="book-online-message-close">
+                <a class="book-online-message-close-href">
+                    <p class="book-online-message-close-text-x">X</p>
+                </a>
+            </div>
+            <div class="book-online-message-text">
+                <p class="book-online-message-text-text">Sorry, this service is not yet available for online bookings. Please contact us for more information.</p>
+            </div>
+            <a href="" class="book-online-message-btn">
+                <div class="book-online-message-btn-text" href="">Go It</div>
+            </a>  
+        </div>        
     </section>
+
     <footer class="main-section9 page-content">
         <div class="content-wrapper">
             <div class="contacts-wrapper">
@@ -127,6 +125,7 @@
             </div>
         </div>
     </footer>
+    <script src="./_script/book_online_message.js"></script>
     
 </body>
 </html>

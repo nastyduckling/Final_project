@@ -27,6 +27,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+          background-color: rgb(255, 148, 148);
+          opacity: 0.5;
+        }
       }
     }
   }

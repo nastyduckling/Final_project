@@ -1,5 +1,8 @@
 .main-section-book {
+  position: relative;
   background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: center;
 }
 
 .main-section-book > .content-wrapper {
@@ -14,6 +17,7 @@
 .main-section-book-title {
   font-size: 6rem;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .main-section-book-cards {
@@ -63,7 +67,9 @@
   margin-top: 20px;
 }
 
-.book-btn {
+.book-btn,
+.book-btn2,
+.book-btn3 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -71,37 +77,65 @@
   width: 140px;
   height: 37px;
   margin-top: 25px;
-  text-decoration: none;
+  border: none;
   font-size: 1rem;
   color: var(--button-orange-text-color);
   background-color: var(--button-dark-bg-hover);
+  outline: none;
+  cursor: pointer;
 }
-.book-btn:hover {
+.book-btn-href,
+.book-btn2-href,
+.book-btn3-href {
+  text-decoration: none;
+}
+.book-btn:hover,
+.book-btn2:hover,
+.book-btn3:hover {
   color: var(--button-orange-text-color);
   background-color: var(--button-section8-bg-hover);
 }
 
-.main-section-book-message > .content-wrapper {
-  height: 900px;
-  background-color: black;
-}
-
 .book-online-message {
-  position: absolute;
-  height: 500px;
-  width: 800px;
+  position: fixed;
+  margin-top: 10%;
+  height: 300px;
+  width: 600px;
   background-color: white;
   z-index: 2;
-}
-.book-online-message-content {
   display: flex;
   flex-direction: column;
-  border: 2xpx solid red;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+  opacity: 0;
 }
-
-.book-online-close {
+.book-online-message-close {
+  margin-left: 550px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.book-online-message-close-href {
+  text-decoration: none;
+}
+.book-online-message-text {
+  width: 500px;
+}
+.book-online-message-btn {
+  width: 140px;
+  height: 40px;
+  font-size: 1.2rem;
   display: flex;
-  flex-direction: flex-en;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: none;
+  margin-bottom: 75px;
+  text-decoration: none;
+  color: white;
+}
+.book-online-message-btn:hover {
+  background-color: #3a3a3a;
 }
 
 /*# sourceMappingURL=bookonline.css.map */

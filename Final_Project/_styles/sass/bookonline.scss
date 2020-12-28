@@ -1,6 +1,8 @@
 .main-section-book {
-  //display: none;
+  position: relative;
   background-color: var(--header-bg-color);
+  display: flex;
+  justify-content: center;
 }
 
 .main-section-book > .content-wrapper {
@@ -15,6 +17,7 @@
 .main-section-book-title {
   font-size: 6rem;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .main-section-book-cards {
@@ -69,7 +72,9 @@
   margin-top: 20px;
 }
 
-.book-btn {
+.book-btn,
+.book-btn2,
+.book-btn3 {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -77,10 +82,16 @@
   width: 140px;
   height: 37px;
   margin-top: 25px;
-  text-decoration: none;
+  border: none;
   font-size: 1rem;
   color: var(--button-orange-text-color);
   background-color: var(--button-dark-bg-hover);
+  outline: none;
+  cursor: pointer;
+
+  &-href {
+    text-decoration: none;
+  }
 
   &:hover {
     color: var(--button-orange-text-color);
@@ -88,27 +99,48 @@
   }
 }
 
-.main-section-book-message > .content-wrapper {
-  height: 900px;
-  background-color: rgb(0, 0, 0);
-  //opacity: 0.5;
-}
-
 .book-online-message {
-  position: absolute;
-  height: 500px;
-  width: 800px;
+  position: fixed;
+  margin-top: 10%;
+  height: 300px;
+  width: 600px;
   background-color: white;
   z-index: 2;
-
-  &-content {
-    display: flex;
-    flex-direction: column;
-    border: 2xpx solid red;
-  }
-}
-
-.book-online-close {
   display: flex;
-  flex-direction: flex-en;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+  opacity: 0;
+
+  &-close {
+    margin-left: 550px;
+    margin-top: 25px;
+    cursor: pointer;
+    &-href {
+      text-decoration: none;
+    }
+  }
+
+  &-text {
+    width: 500px;
+  }
+
+  &-btn {
+    width: 140px;
+    height: 40px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: none;
+    margin-bottom: 75px;
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      background-color: rgb(58, 58, 58);
+    }
+  }
 }

@@ -75,3 +75,13 @@
     flex-direction: column;
   }
 }
+
+//animation for slideshow
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

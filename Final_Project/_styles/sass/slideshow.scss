@@ -1,48 +1,121 @@
-.slideshow {
-  width: 600px;
-  height: 210px;
-  margin: 0 auto;
+.main-section-slider > .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--main-white-text-color);
+}
+
+.slider-teсhnical-btn {
+  margin: 30px;
+  display: flex;
   position: relative;
-  &-viewport {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border: 2px solid green;
-    position: relative;
+
+  &-zoom {
+    color: white;
+    font-size: 1.2rem;
+    background-color: var(--main-bg-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &-img {
+      width: 30px;
+      height: 30px;
+    }
   }
 
-  &-slide {
+  &-like {
+    margin-left: 60px;
+    background-color: var(--main-bg-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &-img {
+      width: 25px;
+      height: 20px;
+    }
+  }
+
+  &-share {
+    margin-left: 30px;
+    background-color: var(--main-bg-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &-img {
+      width: 30px;
+      height: 20px;
+    }
+  }
+
+  &-closed {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 600px;
-    height: 210px;
-    height: auto;
-    opacity: 0;
-    visibility: hidden;
-    &-active {
-      opacity: 1;
-      visibility: visible;
+    font-size: 2rem;
+    color: white;
+    right: 0;
+    background-color: var(--main-bg-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &-text {
+      text-decoration: none;
+      color: var(--main-white1-text-color);
     }
   }
+}
 
-  &-pic {
-    width: 100%;
+.slider-content {
+  display: flex;
+}
+
+.mySlides {
+  display: none;
+  margin-left: 120px;
+  &-img {
+    width: 650px;
+  }
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  color: var(--main-white1-text-color);
+  font-size: 35px;
+  user-select: none;
+}
+
+.next {
+  right: -70px;
+}
+
+.prev {
+  left: 50px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.slider-content-description {
+  width: 250px;
+  margin-left: 125px;
+  margin-top: 40px;
+
+  &-title {
+    font-size: 1.8rem;
+    margin-bottom: 25px;
   }
 
-  &-control {
-    position: absolute;
-    top: 50%;
-
-    &-prev {
-      left: 0;
-      transform: translateX(-100%);
-    }
-
-    &-next {
-      right: 0;
-      transform: translateX(100%);
-    }
+  &-text {
+    font-size: 1.2rem;
   }
 }

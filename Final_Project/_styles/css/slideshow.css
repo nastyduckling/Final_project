@@ -1,39 +1,115 @@
-.slideshow {
-  width: 600px;
-  height: 210px;
-  margin: 0 auto;
-  position: relative;
-}
-.slideshow-viewport {
+@charset "UTF-8";
+.main-section-slider > .content-wrapper {
   display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border: 2px solid green;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--main-white-text-color);
+}
+
+.slider-teсhnical-btn {
+  margin: 30px;
+  display: flex;
   position: relative;
 }
-.slideshow-slide {
+.slider-teсhnical-btn-zoom {
+  color: white;
+  font-size: 1.2rem;
+  background-color: var(--main-bg-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.slider-teсhnical-btn-zoom-img {
+  width: 30px;
+  height: 30px;
+}
+.slider-teсhnical-btn-like {
+  margin-left: 60px;
+  background-color: var(--main-bg-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.slider-teсhnical-btn-like-img {
+  width: 25px;
+  height: 20px;
+}
+.slider-teсhnical-btn-share {
+  margin-left: 30px;
+  background-color: var(--main-bg-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.slider-teсhnical-btn-share-img {
+  width: 30px;
+  height: 20px;
+}
+.slider-teсhnical-btn-closed {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 600px;
-  height: 210px;
-  height: auto;
-}
-.slideshow-pic {
-  width: 100%;
-}
-.slideshow-control {
-  position: absolute;
-  top: 50%;
-}
-.slideshow-control-prev {
-  left: 0;
-  transform: translateX(-100%);
-}
-.slideshow-control-next {
+  font-size: 2rem;
+  color: white;
   right: 0;
-  transform: translateX(100%);
+  background-color: var(--main-bg-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.slider-teсhnical-btn-closed-text {
+  text-decoration: none;
+  color: var(--main-white1-text-color);
+}
+
+.slider-content {
+  display: flex;
+}
+
+.mySlides {
+  display: none;
+  margin-left: 120px;
+}
+.mySlides-img {
+  width: 650px;
+}
+
+.slideshow-container {
+  position: relative;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 150px;
+  color: var(--main-white1-text-color);
+  font-size: 35px;
+  user-select: none;
+}
+
+.next {
+  right: -70px;
+}
+
+.prev {
+  left: 50px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+.slider-content-description {
+  width: 250px;
+  margin-left: 125px;
+  margin-top: 40px;
+}
+.slider-content-description-title {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+}
+.slider-content-description-text {
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=slideshow.css.map */

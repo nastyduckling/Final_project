@@ -1,0 +1,216 @@
+.section-login > .content-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  position: relative;
+}
+
+.section-login-content {
+  width: 315px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.section-login-content-updiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-login-content-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.section-login-content-divhref {
+  font-size: 1.3rem;
+  display: flex;
+  margin: auto;
+}
+.section-login-content-downdiv {
+  margin-top: 70px;
+}
+.section-login-content-btnfacebook {
+  background-color: #4a568d;
+  font-size: 1.1rem;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+.section-login-content-btnfacebook-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+.section-login-content-btnfacebook-text {
+  margin-left: 20px;
+  padding: 3px;
+}
+.section-login-content-btnfacebook:hover {
+  background-color: #404d83;
+}
+.section-login-content-btnfacebook-href {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+}
+.section-login-content-btngoogle {
+  background-color: #547caf;
+  font-size: 1.1rem;
+  height: 50px;
+  width: 100%;
+  border: none;
+  margin-top: 23px;
+}
+.section-login-content-btngoogle-img {
+  width: 30px;
+  height: 30px;
+  margin-left: 2px;
+}
+.section-login-content-btngoogle-text {
+  margin-left: 25px;
+  padding: 3px;
+}
+.section-login-content-btngoogle:hover {
+  background-color: #4a70a1;
+}
+.section-login-content-btngoogle-href {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  justify-content: flex-start;
+}
+.section-login-content-or {
+  display: flex;
+  margin-top: 20px;
+}
+.section-login-content-or-line {
+  width: 45%;
+}
+.section-login-content-or-text {
+  margin: 10px;
+}
+.section-login-content-btn {
+  margin-top: 20px;
+}
+.section-login-content-btn-button {
+  width: 315px;
+  height: 50px;
+  border: var(--main-white1-text-color) 1px solid;
+  color: white;
+  font-size: 1.1rem;
+  background-color: var(--main-bg-color);
+}
+.section-login-content-btn-button:hover {
+  border: 2px solid;
+  border-color: white;
+}
+
+.login-content-href {
+  text-decoration: none;
+  color: var(--header-text-color-hover);
+}
+
+.content-login-hr {
+  margin-top: 18px;
+}
+
+.section-login-form {
+  width: 315px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  display: none;
+}
+.section-login-form-email {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.section-login-form-email-label {
+  font-size: 1.2rem;
+}
+.section-login-form-email-input {
+  width: 100%;
+  height: 30px;
+  background-color: var(--main-bg-color);
+  border-bottom: var(--main-white1-text-color) 1px solid;
+  caret-color: var(--main-white1-text-color);
+  outline: none;
+}
+.section-login-form-email-input:hover {
+  border-bottom: white 1px solid;
+}
+.section-login-form-email-input:focus {
+  border-color: var(--header-text-color-hover);
+}
+.section-login-form-password {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 25px;
+}
+.section-login-form-password-label {
+  font-size: 1.2rem;
+}
+.section-login-form-password-input {
+  width: 100%;
+  height: 30px;
+  background-color: var(--main-bg-color);
+  border-bottom: var(--main-white1-text-color) 1px solid;
+  caret-color: var(--main-white1-text-color);
+  outline: none;
+}
+.section-login-form-password-input:hover {
+  border-bottom: white 1px solid;
+}
+.section-login-form-password-input:focus {
+  border-color: var(--header-text-color-hover);
+}
+.section-login-form-btn {
+  margin-top: 25px;
+}
+.section-login-form-btn-batton {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 1.1rem;
+  background-color: var(--header-text-color-hover);
+}
+.section-login-form-btn-batton:hover {
+  color: var(--main-bg-color);
+}
+.section-login-form-or {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.section-login-form-or-line {
+  width: 33%;
+}
+.section-login-form-network {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.section-login-form-img-image {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+
+.section-login-cloesed {
+  position: absolute;
+  right: 70px;
+  font-size: 1.3rem;
+  color: black;
+}
+.section-login-cloesed-href {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=login.css.map */

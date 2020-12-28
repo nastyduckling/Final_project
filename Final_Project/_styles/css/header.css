@@ -35,4 +35,8 @@
   color: var(--header-text-color-hover);
 }
 
+.menu-href-active {
+  color: white;
+}
+
 /*# sourceMappingURL=header.css.map */
