@@ -4,7 +4,6 @@
 
 html {
   font-size: 15px;
-  font-family: "menu-font" Arial, Helvetica, sans-serif;
 }
 
 body,
@@ -33,6 +32,7 @@ button {
 
 body {
   background: var(--main-bg-color);
+  font-family: "BenchNine", Arial, Helvetica, sans-serif;
 }
 
 .page-content {

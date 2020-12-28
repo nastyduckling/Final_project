@@ -25,6 +25,7 @@
   display: flex;
 }
 .menu-nav-items-link {
+  font-family: "BenchNine";
   display: flex;
   align-items: center;
   height: 50px;
